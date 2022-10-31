@@ -1,0 +1,151 @@
+.menu__btn{
+    position: relative;
+    /* top: -.6rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height: inherit;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    display: none;
+    padding: 2rem 0;
+    margin: 0 2rem;
+    z-index: 1;
+  }
+  
+.menu__btn--burger{
+  width: 40px;
+  height: 4px;
+  background-color:black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.menu__btn--burger::before {
+  content:"";
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background-color:black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+  transform: translateY(-15px);
+}
+
+.menu__btn--burger::after {
+  content:"";
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background-color:black;
+  border-radius: 5px;
+  transition: all .5s ease-in-out;
+  transform: translateY(15px)
+}
+
+
+.responsive{
+  border: 2px solid black;  
+  display: none;
+}
+
+.responsive a{
+  text-decoration: none;
+  color: black;
+  cursor:pointer;
+}
+
+.responsive a:hover{
+  font-size: 1.6rem;
+}
+
+.responsive div{
+  padding: 2rem 0;
+  text-align: center;
+  background-color: white;
+  border-bottom: 2px solid black;
+  /* z-index: -1; */
+}
+
+.responsiveBlock{
+  display:block;
+  animation: reappear 0.5s linear reverse;
+}
+
+.service-sub{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  top: 390px;
+  padding: 2rem 0;
+  width: 100%;
+  text-align: center;
+  z-index:  1;
+  border: 2px solid black;
+}
+
+.service-sub div a{
+  color: black;
+}
+
+.service-sub div a:hover{
+  font-size: 1.5rem;
+}
+
+
+
+/* ANIMATION
+nav section menu__btn */
+
+.menu__btn.open .menu__btn--burger{
+  transform: scaleX(-20px);
+  background: transparent; 
+}
+
+.menu__btn.open .menu__btn--burger::before{
+  transform: rotate(45deg) ;
+}
+
+.menu__btn.open .menu__btn--burger::after{
+  transform: rotate(-45deg) ;
+}
+
+/* menuDropdown */
+@keyframes reappear {
+  0%{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  25%{
+    transform:translateX(25%);
+    opacity:0.8;
+  }
+
+  50%{
+    transform:translateX(50%);
+    opacity:0.5;
+  }
+
+  75%{
+    transform:translateX(75%);
+    opacity: 0.25;
+  }
+
+  100%{
+    transform:translateX(150%);
+    opacity:0;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+  .menu__btn{
+    display: flex;
+  }
+}
