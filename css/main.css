@@ -1723,7 +1723,7 @@ ul.ttm_contact_widget_wrapper li i{
 .contact-us .contactUs {
     position: relative;
     width: 100%;
-    padding: 40px 100px;
+    padding: 40px;
 }
 
 .contactUs .title {
@@ -1750,7 +1750,6 @@ ul.ttm_contact_widget_wrapper li i{
 }
 
 .contact-us .contact {
-    padding: 40px;
     background:white;
 }
 
@@ -1944,4 +1943,9 @@ ul.ttm_contact_widget_wrapper li i{
     .showcase-form {
         grid-template-columns: 1fr;
     }
+}
+
+.wif{
+    width: 100%;
+    border: 2px solid red
 }

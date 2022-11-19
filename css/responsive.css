@@ -933,4 +933,21 @@
 	.ttm-footer2-right{ text-align: center; }
 }
 
+@media only screen and (max-width: 600px){
+	.reverse{
+		flex-direction: column-reverse;
+	}
+
+	.imgres {
+		margin-top: 35px;
+	}
+}
+
+@media only screen and (max-width:1000px){
+	aside{
+		display: none
+	}
+
+}
+
 
