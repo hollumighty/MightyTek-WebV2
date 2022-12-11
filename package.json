@@ -1,0 +1,20 @@
+{
+  "name": "mighty-tekv2",
+  "version": "1.0.0",
+  "description": "https://adedejiadetola.github.io/mighty-tek/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdedejiAdetola/mighty-tek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdedejiAdetola/mighty-tek/issues"
+  },
+  "homepage": "https://github.com/AdedejiAdetola/mighty-tek#readme"
+}
