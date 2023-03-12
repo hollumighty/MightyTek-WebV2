@@ -135,7 +135,7 @@ select{
     border-radius: 0;
     vertical-align: middle;
     width: 100%;
-    color: #5d6576;
+    color: black;
     padding: 9px 15px;
     font-weight: 400;
     background-color:#fff;
@@ -185,6 +185,7 @@ input[type="color"]:focus {
     box-shadow: none;
 }
 
+
 textarea:-moz-placeholder,
 textarea::-moz-placeholder,
 input:-moz-placeholder,
@@ -192,9 +193,11 @@ input::-moz-placeholder,
 input:-ms-input-placeholder ,
 input::-ms-input-placeholder,
 textarea::-webkit-input-placeholder,
-input::-webkit-input-placeholde  {   
+input::-webkit-input-placeholder  {   
   color: #fff;
 }
+
+
 
 menu, ol, ul {
     margin: 16px 0;
@@ -769,7 +772,8 @@ a.checkout-button,a.checkout-button:hover, .coupon button, .ttm-cart-form button
     top:0;
     width:100vw;
     height: 100vh;
-    background-color: rgb(24, 26, 27);
+    background-color: #f3f7f9;
+    color: #8d9297;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -890,6 +894,8 @@ a.ttm-btn.ttm-btn-color-skincolor.btn-inline:hover{ color: #313131; }
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 
 /*  ===============================================
     SocialIcon

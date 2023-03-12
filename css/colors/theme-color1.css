@@ -166,7 +166,6 @@ input[type="color"]:focus,
 .tp-caption.skin-flat-button, .skin-flat-button,.tp-caption.skin-flatborder-button,
 .ttm-video-btn .ttm-btn-play, .ttm-btn-play:after, .ttm-btn-play:before {
     border-color: #fab702 !important ;
-
 }
 .ttm-search-overlay .w-search-form-row:before{
     border-bottom-color: #fab702 ;
