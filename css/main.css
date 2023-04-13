@@ -2001,3 +2001,21 @@ ul.ttm_contact_widget_wrapper li i{
     width: 100%;
     border: 2px solid red
 }
+
+
+/* EXTRAS */
+
+.overlay-img{
+    height: inherit;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.contact-widget-wrapper li a {
+    word-wrap: break-word;
+}
+
+.inputBox input,
+.inputBox textarea {
+    background-color: rgba(0,0,0,0.06);
+}
