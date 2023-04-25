@@ -1876,7 +1876,7 @@ ul.ttm_contact_widget_wrapper li i{
     border: #ffffff;
 }
 
-.row100 .inputBox input[type="submit"] {
+.row0 .inputBox input[type="submit"] {
     font-size: 1.1em;
     padding: 10x;
     outline: none;
@@ -1884,6 +1884,10 @@ ul.ttm_contact_widget_wrapper li i{
     color: white;
     width: 100%; 
     font-weight: 300;
+    cursor: pointer;
+}
+
+.row0 .inputBox input[type="file"] {
     cursor: pointer;
 }
 

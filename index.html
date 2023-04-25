@@ -1453,7 +1453,7 @@
                                 <h2 class="title">Get a Free Quote</h2>
                             </div>
                         </div><!-- section title end -->
-                        <form id="ttm-quote-form" class="ttm-quote-form wrap-form clearfix" method="post" action="https://formsubmit.co/info.mightytek@gmail.com">
+                        <form id="ttm-quote-form" class="ttm-quote-form wrap-form clearfix" method="post" action="https://formsubmit.co/info.mightytek@gmail.com" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label>
@@ -1469,7 +1469,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label>
-                                        <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone Number" required="required"></span>
+                                        <span class="text-input"><input name="phone" type="tel" value="" placeholder="Phone Number" required="required"></span>
                                     </label>
                                 </div>
                                 <div class="col-lg-6">
@@ -1490,7 +1490,14 @@
                             <label>
                                 <span class="text-input"><textarea name="message" rows="4" placeholder="Your Message" required="required"></textarea></span>
                             </label>
-                            <input name="submit" type="submit" id="submit" class="submit" value="GET A FREE QUOTE">
+                            <div class="row0">
+                                <div class="inputBox">
+                                    <input type="file" name="file" accept="image/*, .doc, .docx, .pdf, .zip,.rar,.7zip">
+                                </div>
+                                <div class="inputBox">
+                                    <input name="submit" type="submit" id="submit" value="GET A FREE QUOTE">
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
