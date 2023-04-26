@@ -2023,3 +2023,39 @@ ul.ttm_contact_widget_wrapper li i{
 .inputBox textarea {
     background-color: rgba(0,0,0,0.06);
 }
+
+/* ANIMATIONS FOR ALL WEBSITE */
+.fade-in{
+    opacity: 0;
+    transition: opacity 1200ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+/* .from-left, 
+.from-left-t1{
+    transform: translateX(-100%);
+}
+
+.from-right,
+.from-right-100{
+    transform: translateX(100%);
+}
+
+.from-left,
+.from-right,
+.from-left-t1,
+.from-right-100{
+    opacity: 0;
+    transition: transfrom 5000ms ease-in, opacity 3000ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear,
+.from-left-t1.appear,
+.from-right-100.appear{
+    opacity: 1;
+    transform: translateX(0);
+} */
