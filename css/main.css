@@ -1950,3 +1950,7 @@ ul.ttm_contact_widget_wrapper li i{
     opacity: 1;
     transform: translateX(0);
 } */
+
+.ttm-service-description {
+    text-align: justify;
+}
